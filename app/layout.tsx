@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import AnimatedBackground from "@/components/AnimatedBackground";
 import Navbar from "@/components/Navbar";
 import ScrollRestoration from "@/components/ScrollRestoration";
 import CustomCursor from "@/components/CustomCursor";
@@ -39,7 +38,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <AnimatedBackground />
+        <div className="site-bg" aria-hidden="true" />
         <ScrollRestoration />
         <CustomCursor />
         <Navbar />

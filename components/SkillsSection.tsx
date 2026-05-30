@@ -83,10 +83,6 @@ export default function SkillsSection() {
                 <span className="skill-icon">☕</span>
                 <span className="skill-title">Java</span>
               </div>
-              <div className="skill-item">
-                <span className="skill-icon">🔌</span>
-                <span className="skill-title">REST APIs</span>
-              </div>
             </div>
           </div>
         )}
@@ -118,7 +114,7 @@ export default function SkillsSection() {
                   <p>UI/UX design and prototyping</p>
                 </div>
               </div>
-              <div className="tool-item highlight">
+              <div className="tool-item">
                 <span className="tool-icon">✏️</span>
                 <div className="tool-info">
                   <h4>Canva</h4>
@@ -126,10 +122,10 @@ export default function SkillsSection() {
                 </div>
               </div>
               <div className="tool-item">
-                <span className="tool-icon">📦</span>
+                <span className="tool-icon">🌐</span>
                 <div className="tool-info">
-                  <h4>Postman</h4>
-                  <p>API testing and development</p>
+                  <h4>WordPress</h4>
+                  <p>Content management and website development</p>
                 </div>
               </div>
             </div>

@@ -27,7 +27,7 @@ export const certifications: Certification[] = [
     source: "NPTEL",
     description: "Network structures, graph theory, and analysis concepts.",
     file: "social-network-analysis.pdf",
-    lifetimeValid: false,
+    lifetimeValid:true,
   },
   {
     title: "Flutter Development",
@@ -56,6 +56,6 @@ export const certifications: Certification[] = [
     source: "NPTEL",
     description: "Introduction to Industry 4.0 and Industrial Internet of Things.",
     file: "industry-4-0-iot.pdf",
-    lifetimeValid: false,
+    lifetimeValid: true,
   },
 ];

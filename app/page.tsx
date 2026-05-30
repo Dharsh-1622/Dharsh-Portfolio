@@ -20,7 +20,7 @@ export default function Home() {
 
       {/* HERO */}
       <section className="hero" id="hero">
-        <Reveal className="hero-text" direction="left" delay={0}>
+        <Reveal className="hero-text" direction="up" delay={0}>
           <HeroTitle />
           <p>Software Engineer</p>
           <p style={{ color: "var(--secondary)", maxWidth: "400px" }}>
@@ -28,8 +28,13 @@ export default function Home() {
           </p>
           <Link href="/resume" className="btn">View Resume</Link>
         </Reveal>
-        <Reveal className="hero-image" direction="right" delay={120}>
-          <img src="/profile.jpg" alt="profile" />
+        <Reveal className="hero-image" direction="up" delay={120}>
+          <div className="hero-photo-frame">
+            <span className="hero-photo-halo" aria-hidden="true" />
+            <span className="hero-photo-aura hero-photo-aura--1" aria-hidden="true" />
+            <span className="hero-photo-aura hero-photo-aura--2" aria-hidden="true" />
+            <img src="/profile.jpg" alt="Dharshini Prabhakaran" />
+          </div>
         </Reveal>
       </section>
     <section className="education" id="education">
@@ -74,16 +79,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="timeline-dot" style={{ top: "10px" }}></div>
-      <div className="right"></div>
+      <div className="timeline-dot" aria-hidden="true" />
+      <div className="right" />
     </Reveal>
 
 
     {/* CLASS XII */}
     <Reveal className="timeline-row" delay={120}>
-      <div className="left"></div>
+      <div className="left" />
 
-      <div className="timeline-dot" style={{ top: "10px" }}></div>
+      <div className="timeline-dot" aria-hidden="true" />
 
       <div className="right">
         <div className="edu-card">
@@ -147,8 +152,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="timeline-dot" style={{ top: "10px" }}></div>
-      <div className="right"></div>
+      <div className="timeline-dot" aria-hidden="true" />
+      <div className="right" />
     </Reveal>
 
   </div>
