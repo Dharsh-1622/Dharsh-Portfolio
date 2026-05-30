@@ -16,6 +16,7 @@ export default function Home() {
     : new Set<string>();
 
   return (
+    <>
     <main className="container">
 
       {/* HERO */}
@@ -325,8 +326,9 @@ export default function Home() {
     </div>
   </Reveal>
 </section>
-      <Footer />
 
     </main>
+    <Footer />
+    </>
   );
 }

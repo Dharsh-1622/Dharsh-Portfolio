@@ -17,13 +17,16 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      <button type="button" className="back-to-top" onClick={goToTop} aria-label="Back to top">
-        <span className="back-to-top-icon" aria-hidden="true">
-          ↑
-        </span>
-        Back to top
-      </button>
-      <p className="footer-copy">© 2026 Dharshini. Designed & built with care.</p>
+      <div className="footer-inner">
+        <button type="button" className="back-to-top" onClick={goToTop} aria-label="Back to top">
+          <span className="back-to-top-icon" aria-hidden="true">
+            ↑
+          </span>
+          Back to top
+        </button>
+        <p className="footer-copy">© 2026 Dharshini. Designed & built with care.</p>
+      </div>
+      <div className="footer-bottom-accent" aria-hidden="true" />
     </footer>
   );
 }
